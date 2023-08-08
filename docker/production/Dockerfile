@@ -14,7 +14,7 @@
 #  docker run -d -p 5099:5099 yaoapp/yao:0.9.1-amd64
 #
 # ===========================================
-FROM alpine:latest
+FROM alpine:3.18.3
 ARG VERSION
 ARG ARCH
 RUN apk --no-cache add curl 
